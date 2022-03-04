@@ -10,6 +10,8 @@ module proj001 (
 	wire	   vA, vB, vC, vD;
 	wire rst_n_int;
 
+	wire valid_delay;
+
 	regV4 UA (
 	.data_in(d_in), .capture({~op[1], ~op[0], capture}), .rst_n(rst_n_int), .clock(clock), .valid_out(vA), .data_out(dA));
 	regV4 UB (
@@ -24,6 +26,9 @@ module proj001 (
 
 	assign valid = vA & vB & vC & vD;
 
-	assign rst_n_int = ~valid & rst_n;
+	dff Uvdelay (
+	.rst_n(rst_n_int), .clock(clock), .d(valid), .q(valid_delay));
+
+	assign rst_n_int = ~valid_delay & rst_n;
 
 endmodule
