@@ -10,6 +10,7 @@ module proj001 (
 	wire	   vA, vB, vC, vD;
 	wire rst_n_int;
 
+	wire valid_pre;
 	wire valid_delay;
 
 	regV4 UA (
@@ -24,11 +25,13 @@ module proj001 (
 	hw6_q1b Ucalc (
 	.A(dA), .B(dB), .C(dC), .D(dD), .F(result));
 
-	assign valid = vA & vB & vC & vD;
+	assign valid_pre = vA & vB & vC & vD;
 
 	dff Uvdelay (
-	.rst_n(rst_n_int), .clock(clock), .d(valid), .q(valid_delay));
+	.rst_n(rst_n_int), .clock(clock), .d(valid_pre), .q(valid_delay));
 
 	assign rst_n_int = ~valid_delay & rst_n;
+
+	assign valid = valid_delay;
 
 endmodule
