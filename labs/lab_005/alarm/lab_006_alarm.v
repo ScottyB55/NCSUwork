@@ -6,10 +6,18 @@ module lab_006_alarm (
 );
 
   always @* begin
-    if( alarm_set )
-
-    // fill out the rest
-
+    if( alarm_set == 0 ) begin
+	secure <= 0;
+	alarm <= 0;
+    end
+    else begin
+	if( alarm_stay && doors || windows ) begin
+	    secure <= 0;
+	end
+	else begin
+	    secure <= 1;
+	end
+    end
   end
 
 endmodule
