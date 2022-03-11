@@ -8,9 +8,8 @@ module lab_006_acc (
     if( !rst_n ) begin
       d_out <= 0;
     end
-    
-    // fill out the rest
-
+    else if( d_in > 6 ) begin
+      d_out <= d_out + d_in;
+    end
   end
-
 endmodule
