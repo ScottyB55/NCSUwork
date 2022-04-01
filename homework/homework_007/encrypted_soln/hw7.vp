@@ -1,0 +1,21 @@
+module hw7 (
+  input rst_n,
+  input clock,
+  input ser_in,
+  input p_load,
+  input [3:0] pattern,
+  input o_load,
+  input overlap,
+  output found
+);
+`protected
+    MTI!#.=DUZl7_WI5UR\G+T[^?G~[WA@BHYAT$[fI#jih?{r[ka}xksk=7<n2O\rMQKX>nXaGvxvu
+    }'!nKV;sr#]Z+[Bw$QE7eH1Qw*Um{Y=[}AKuTl]7CV2]aX7ZD<XT7K]Vi-5KGT>;R{ADe?12_@[u
+    j55{nsB=Y=@;GlVmBxpV{Y3uYezetl,Q3xZIekT}3q7mc3>-ZA5J-p3K'+GB*vD{2lZoAj~xoE%R
+    ;<*wUsj}isA@TR@j)QxBUD[zwrm[o>-wHFIZZ_XXB!{w3K3jYi5.Kj]Z7pR7vE^T\+{TU>^<MzWT
+    p)l3'1Irw$vxQDy>CGa|=@,k|up^r'3ZkiEXEUEIG\5QOs=OnzrC5leu}'#VE.D^j+f+s$I5vA-X
+    ,3pe~_<YQ2k'HQW[T+v$_,*r}AE;X\]DH~ol7^xDAXZh<\>m2p$[7W[]=Go3Gr3G~_Tj]Uw1u7kO
+    %l**3po$u}Jz-2_!;7,+WR3Eu$=CeSEuZ1]H^2v_<\TaDVI'{T5nJeWIT75,IHZU{T6Y+YX&E!=Q
+    5@Kv2_ydK>EE1[}#
+`endprotected
+endmodule
