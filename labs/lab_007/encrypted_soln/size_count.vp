@@ -1,0 +1,24 @@
+module size_count (
+  input clock, rst_n,
+  input size_valid,
+  input [31:0] size,
+  input data_start,
+  output last
+);
+`protected
+    MTI!#QAjE5UUov+aX-\?;JsaOY#{^Jx>X5Do?}?-JN"F#xj<S|9VOQ{2Xe^(73[R^#Vr+9I27Tjx
+    ulwskK27KB,3KD}C[_-|$Wa{9oaDAN.I,^2kzQRovlswowurZzr8OD_AFJrIW.9ooa*'-QQJ_{T/
+    Im@5I+sJCUZ7]OwJj'iz*#;sv<*u~{^\OUZv1@*;}N*-X5w<QE*W3_Eklo?1QHQmu}K73aCV^r#]
+    z=+I>CW=pUq[wu#$>@p,uw>*oo{op{@eDx[QGzZK7;V,}+@oB!V:?OE}I5;ok1AIRGA=r}e[$B;?
+    ex7Y#YTBO%7vJms'O<ta7pkx+-vG~2+(lRop1e+amAO2m*~wMV#^+Hao]K\,-rYODQD<nm\J#<+<
+    *H<EBOA_[R2\{Bx,,+v[;7r?WvY,Z3]jXmR\${Ts^RwR{&ZCjw5TQ7lk*uAXzG{'a=[k_m)$V-EQ
+    |ci[JQVC2-^C+#}RGpWYl}%BCX2~\]RI~oV'#z}lwK]8zzJ>lZ7Ohj_GBN}}*arJA!\fCXrCKQD_
+    [kpKRLGd_jb:"vTD?lIw__ZDkfQ-T~i<TpU<axRpKzn[aWr]!s%m<<E4?o}DYan$-srjVp*z/j~>
+    on,ZjUOjAx}po';J~C*QV4kv{Ckj@TL}ul$i+1iTXOin'JI1^z=]?TzORG+V_7eBU5R1liR9)1jA
+    +s-eBU7@pi<Z]@U2>ax{BG_W5$D}-2V>\u-^i_JArF>EDRBRn=ZXXIBzU]$n1rj2+H~$7lcYi=Ga
+    $l7H7=Vv"Ua2QEm*11xQC/'TTKAAuR"lB?vG_2s_TRa;t+<<BjBj\lUp}o$ZmOC,#.|rK}}@X{5i
+    Es'vW!;Q>aZVK$=I\<vAes\5ZZ1OBOT?vjn^X}{8K17a',!W?Ru73_{aGZ'!I=p}J<O]szu]C,5l
+    T[->#YCmiDIG^R_KL1uE[i1J~-O_up@JwRvQ5koA35B7u!-<m$}-ja7lK]!1uAj~-=lu[{D<p1m;
+    #!<wI[?D5U=VVg{<pEE~D+w1Bs~eo@#CG'YV]l+-uW~e%|FYKIDr*_z7TX\(1DkUX--ETGV>
+`endprotected
+
