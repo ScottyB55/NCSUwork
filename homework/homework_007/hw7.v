@@ -28,7 +28,7 @@ assign patternQ[0] = ~wPQ[0];
 wire woQ, woD, woQ, overlapQ;
 
 // define logic for overlap section
-mux21 UOM (.sel(o_load), .in_0(woQ), .in_1(~overlap), .f(woD)
+mux21 UOM (.sel(o_load), .in_0(woQ), .in_1(~overlap), .f(woD));
 dff UOD ( .rst_n(rst_n), .clock(clock), .d(woD), .q(woQ), .q_n(overlapQ));
 
 
@@ -66,7 +66,7 @@ always @ ( posedge clock ) begin
 end
 
 // define logic for found logic
-assign wEqual = (data == patternQ);
+assign wEqual = (rData == patternQ);
 assign wValid = overlapQ | wReady;
 assign found = wEqual & wValid;
 
