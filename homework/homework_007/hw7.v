@@ -25,7 +25,7 @@ assign patternQ[1] = wPQ[1];
 assign patternQ[0] = ~wPQ[0];
 
 
-wire woQ, woD, woQ, overlapQ;
+wire woD, woQ, overlapQ;
 
 // define logic for overlap section
 mux21 UOM (.sel(o_load), .in_0(woQ), .in_1(~overlap), .f(woD));
