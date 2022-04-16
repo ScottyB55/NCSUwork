@@ -12,7 +12,7 @@ module hello_tb;
 
   adler32 DUT (
     .rst_n( rst_n ),
-    .clk( clock ),
+    .clock( clock ),
     .size_valid( size_valid ),
     .size( size ),
     .data_start( data_start ),
